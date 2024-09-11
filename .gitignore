@@ -1,0 +1,67 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+
+# Ignore Kubernetes config and secrets
+kubeconfig
+secret.yaml
+*.yaml.swp  # Swap files from editors like Vim
+
+# Ignore Helm generated files
+helm-release.yaml
+charts/
+*.tgz
+*.lock
+
+# Ignore Node.js or Python dependencies (if you're using any)
+node_modules/
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files or executables
+*.out
+*.o
+*.so
+*.exe
+
+# Ignore Docker files
+docker-compose.override.yml
+.dockerignore
+*.env
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Git directories and submodule-related files
+.gitmodules
+*.orig
+
+# Ignore sensitive files
+.env
+*.json
+*_credentials
+*.pem
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+~*
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
